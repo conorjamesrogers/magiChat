@@ -10,7 +10,7 @@
     ||-----||
     ^^     ^^
     
-BEHOLD, ALFONSO: OUR MAGIC COW!
+BEHOLD, ALFONSO (see historical figure, Alfonso X): OUR MAGIC COW!
 
 
 This program is a PoC for a future package class.  The MMU program implements
