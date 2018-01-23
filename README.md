@@ -9,25 +9,25 @@ reconstructed with large portions of data missing.
 
 ## What it does 
 
-This program is a PoC for a future package class.  The MMU program implements
-the use of Pan-Magic Squares as a coding mechanism for 8-bit data.  The traditional
+This program is a Proof of Concept (PoC) for a future package class.  The MMU (MMU Maybe UDP) 
+program implements the use of Pan-Magic Squares as a coding mechanism for 8-bit data.  The traditional
 single-error correcting coding schema for 8-bit data is 17-bits long and allows 
 for 1 error at a maximum sustainable error rate of 1 in 17.  Using magic squares
 with error-detecting coding schemas, an 80-bit translation can be made.  A 
 pan-magic square can be seen below:
 
-| 2  5 11 12|
-|15  8  6  1|
-| 4  3 13 10|
-| 9 14  0  7|
+| 2  5 11 12| 
+|15  8  6  1| 
+| 4  3 13 10| 
+| 9 14  0  7| 
 
 Using rules for pan-magic square construction, this square could be reconstructed
 with the following worst-case input:
 
-| 2  *  * 12|
-| *  8  *  *|
-| *  * 13  *|
-| *  *  *  7|
+| 2  *  * 12| 
+| *  8  *  *| 
+| *  * 13  *| 
+| *  *  *  7| 
 
 There are 192 pan-magic squares, which is 64 short of 256, but we attempt a best
 match for our reconstruction method, with priority given to values 0-192.  Our
