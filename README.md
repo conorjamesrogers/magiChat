@@ -1,4 +1,4 @@
-# MNU
+# MMU
 
 ## Inspiration
 In the new world of CubeSat's and the growing market of satellite photography, 
