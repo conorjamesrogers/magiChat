@@ -61,7 +61,7 @@ Proving that magic squares can tolerate losses and generating those squares.
 Finding a way to transmit bits over bytes in python UDP.
 
 
-## What's next for MNU
+## What's next for MMU
 Establishing encoding of images rather than strings.
 Data validation.
 Exception handling.
